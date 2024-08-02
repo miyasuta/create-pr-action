@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checko@v4
+      - uses: actions/checkout@v4
       - env:
           USERNAME: github-actions[bot]
           EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
