@@ -9,7 +9,7 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: actions/checkcout@v4
+      - uses: actions/checkout@v4
       - name: Setup
         run: date > foo.md # プッシュ対象のダミーファイルを作成
       - name: Excercise
