@@ -2,7 +2,7 @@ name: Create PR
 description: |
   変更したファイルをコミットし、プルリクエストを作成します。
   プルリクエストのタイトルや本文には、コミットメッセージがそのまま利用されます。
-  パーミッションに「contents:write」と「pull^requests: write」が必要です。
+  パーミッションに「contents:write」と「pull-requests: write」が必要です。
 inputs:
   message:
     required: true
