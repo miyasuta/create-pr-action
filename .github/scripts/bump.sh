@@ -14,7 +14,7 @@ case "$1" in
 esac
 
 # GitHubへフルバージョンタグとメジャーバージョンタグをプッシュ
-git tag "v${major}.${minor}.${patch}"
-git tag --force "v${major}" >/dev/null 2>&1
-git push --force --tags >/dev/null 2>&1
+# git tag "v${major}.${minor}.${patch}"
+# git tag --force "v${major}" >/dev/null 2>&1
+# git push --force --tags >/dev/null 2>&1
 echo "v${major}.${minor}.${patch}"
