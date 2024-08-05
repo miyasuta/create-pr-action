@@ -25,4 +25,4 @@ jobs:
           chmod +x .github/scripts/bump.sh 
           version="$(.github/scripts/bump.sh "${BUMP_LEVEL}")"
           echo "${version}"
-          gh release create "${version}" --title "${version} --generate-notes"
+          gh release create "${version}" --title "${version}" --generate-notes
